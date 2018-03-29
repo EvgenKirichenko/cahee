@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700,800');
+
+body{
+	font: 300 17px/1.59 Raleway, sans-serif;
+	color: #262626;
+}
+
+/* Layout */
+.ba-container{
+	padding-left: 15px;
+	padding-right: 15px;
+	max-width: 1200px;
+}
+
+/* Typography */
+h1, h2, h3, h4{
+	margin: 0;
+}
+h1{
+	font-size: 60px;
+	font-weight: 800;
+}
+h2{
+	font-size: 90px;
+	font-weight: 700;
+}
+h3 {
+	font-size: 40px;
+	font-weight: 700;
+}
+h4{
+	color:  #ffffff;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 1.25;
+}
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+/*-----Header-------*/
+.ba-header{
+	background: #fff url('../img/bgheader.jpg') no-repeat 50% / cover;
+	padding: 50px 0 70px;
+}
+.ba-logo-nav{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 228px;
+}
+.ba-nav__list{
+	display: flex;
+	list-style: none;
+	margin: 12px 0 0 0
+}
+.ba-nav__link{
+	padding: 0 0 0 38px;
+}
+.ba-nav__link a{
+	text-decoration: none;
+	color:  #262626;
+	padding: 7px 0;
+	font-size: 16px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.ba-intro{
+	max-width: 400px;
+	margin-bottom: 307px;
+}
+.ba-nav__link a:hover{
+	border-top: 3px solid #FF6033;
+}
+.ba-intro__tittle{
+	margin:0;
+}
+.ba-intro__paragraph{
+	margin:0 0 40px;
+}
+.ba-intro__link{
+font-size: 20px;
+text-decoration: none;
+color: #fff;
+background-color: #FF6033;
+border: 1px solid transparent;
+padding: 15px 24px;
+box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+}
+.ba-intro__link:hover{
+color: #FF6033;
+background-color: #FFF;
+border: 1px solid #FF6033;
+}
+.ba-scroll{
+	    display: block;
+	    width: 23px;
+	    height: 37px;
+	    margin: 0 auto;
+
+}
+.ba-about{
+	background: #00b0b0;
+	padding: 70px 0 0;
+}
+.ba-about__column{
+	display: flex;
+}
+.ba-about__img{
+	display: block;
+	position: relative;
+	left: -50px;
+	top: -35px;
+	max-width: 700px;
+	margin-right: 10px;
+}
+.ba-about__info{
+	color: #FFF;
+	padding: 0 10px 0;
+}
+.ba-about__tittle{
+	padding-top: 104px;
+	line-height: .93;
+
+}
+.ba-about__paragraph{
+	margin-bottom: -6px;
+}
+.ba-services{
+	background: #70bfff;
+	padding: 100px 0 128px 0;
+}
+.ba-row{
+	display: flex;
+	justify-content: flex-end;
+}
+.ba-services__link{
+	display: flex;
+	align-items: center;
+	max-width: 410px;
+	background: #FFF;
+	margin-bottom: 20px;
+}
+.ba-services__link + .ba-services__link{
+	margin-bottom: 20px;
+}
+.ba-services__tittle-h4{
+	color: #262626;
+	text-align: center;
+	max-width: 310px;
+	padding: 25px;
+	flex-grow: 1;
+}
+.ba-services__icon{
+	display: block;
+	max-width: 100px;
+	padding: 27px 26px 29px;
+	border-left: 1px solid #262626;
+}
+.ba-services__img{
+	display: block;
+	min-width: 462px;
+	margin-top: -12px;
+}
+.ba-services__tittle-h2{
+	position: absolute;
+	color: #fff;
+	bottom: 225px;
+	right: -5px;
+	min-width: 550px;
+	z-index: 1;
+}
+.ba-services__column{
+	padding-top: 66px;
+	margin-right: 210px;
+}
+.ba-services__column-img{
+	width: 38.5%;
+	position: relative;
+}
+.ba-gallery{
+	background: #ffe92f;
+	text-align: center;
+	padding: 63px 0 118px;
+}
+.ba-gallery__paragraph{
+	max-width: 585px;
+	margin: -15px auto 42px auto;
+}
+.ba-col-4__img{
+	margin-bottom: 30px;
+}
+.ba-gallery img{
+	display: block;
+	box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.5);
+}
+.ba-gallery img:hover{
+	-webkit-transform: scale(1.05,1.05);
+	-webkit-transition-timing-function: ease-out;
+	-webkit-transition-duration: 250ms;
+	-moz-transform: scale(1.1,1.1);
+	-moz-transition-timing-function: ease-out;
+	-moz-transition-duration: 250ms;
+}
+.ba-gallery__link{
+	display: block;
+	margin: 0 auto 0 auto;
+	max-width: 203px;
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 20px;
+	background: #5585a2;
+	padding: 12px;
+}
+.ba-row-2 {
+	margin-bottom: 50px;
+
+}
