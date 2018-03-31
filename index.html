@@ -25,10 +25,10 @@
 					<ul class="ba-nav__list">
 						<li class="ba-nav__link"><a href="#">Home</a></li>
 						<li class="ba-nav__link"><a href="#about">About</a></li>
-						<li class="ba-nav__link"><a href="#">Services</a></li>
-						<li class="ba-nav__link"><a href="#">Gallery</a></li>
-						<li class="ba-nav__link"><a href="#">Blog</a></li>
-						<li class="ba-nav__link"><a href="#">Contact</a></li>
+						<li class="ba-nav__link"><a href="#services">Services</a></li>
+						<li class="ba-nav__link"><a href="#gallery">Gallery</a></li>
+						<li class="ba-nav__link"><a href="#blog">Blog</a></li>
+						<li class="ba-nav__link"><a href="#contact">Contact</a></li>
 					</ul>
 				</nav>
 				<!-- /.ba-nav -->
@@ -67,7 +67,7 @@
 			<!-- /.ba-container -->
 		</section>
 		<!-- /.ba-about -->
-		<section class="ba-services">
+		<section id="services" class="ba-services">
 			<div class="ba-container">
 				<div class="ba-row">
 					<div class="ba-services__column">
@@ -105,7 +105,7 @@
 			<!-- /.ba-container -->
 		</section>
 		<!-- /.ba-services -->
-		<section class="ba-gallery">
+		<section id="gallery" class="ba-gallery">
 			<div class="ba-container">
 				<h2 class="ba-gallery__tittle">Gallery</h2>
 				<div class="ba-gallery__paragraph"><p>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div>
@@ -138,7 +138,7 @@
 			<!-- /.ba-container -->
 		</section>
 		<!-- /.ba-gallery -->
-		<section class="ba-subscribe">
+		<section id="subscribe" class="ba-subscribe">
 			<div class="ba-container">
 				<form class="ba-subscribe__form" action="#" method="post">
 					<h3 class="ba-subscribe__tittle">Subscribe To Us</h3>
@@ -155,7 +155,7 @@
 
 		</section>
 		<!-- /.ba-subscribe -->
-		<section class="ba-blog">
+		<section id="blog" class="ba-blog">
 			<div class="ba-container">
 					<h2 class="ba-blog__tittle">Blog</h2>
 					<!-- /.ba-blog__tittle -->
@@ -205,11 +205,59 @@
 			</div>
 		</section>
 		<!-- /.ba-blog -->
+		<section id="contact" class="ba-contact">
+			<div class="ba-container">
+				<h2 class="ba-section__tittle">Contact</h2>
+			<div class="ba-blog_paragraph">
+				For new projects, ideas, business or anything
+you'd like to discuss, contact with me!
+			</div>
+			<!-- /.ba-blog_paragraph -->
+			<div class="ba-row ba-row__contact">
+				<div class="ba-col-6">
+					<form class="ba-contact__form">
+					<input class="ba-contact__form--input" type="text" name="name" placeholder="Your name..." required>
+					<input class="ba-contact__form--input" type="email" name="email" placeholder="Your email..." required>
+					<input class="ba-contact__form--input" type="number" name="phonenumber" placeholder="Your phone number...">
+					<textarea class="ba-contact__form--input" rows="8" name="text" placeholder="Your message..."></textarea>
+					<button class="ba-button ba-button--submit" type="submit">Submit</button>
+					</form>
 
-
+				</div>
+				<!-- /.ba-col-6 -->
+				<div class="ba-col-6">
+					<div class="ba-contact__info ba-contact__info--bold">ADDRESS</div>
+					<div class="ba-contact__info">123 City name, Street, City, Country</div>
+					<div class="ba-contact__info ba-contact__info--bold">EMAIL</div>
+					<div class="ba-contact__info"><a class="ba-contact_link" href="mailto:cahee@domain.com">cahee@domain.com</a></div>
+					<div class="ba-contact__info ba-contact__info--bold">PHONE</div>
+					<div class="ba-contact__info"><a class="ba-contact_link" href="tel:+0123456789">+012 345 6789</a></div>
+				</div>
+				<!-- /.ba-col-6 -->
+			</div>
+			<!-- /.ba-row -->
+			</div>
+			<!-- /.ba-container -->
+		</section>
+		<!-- /.ba-contact -->
 	</main>
 	<!--Main-->
 	<footer class="ba-footer">
+		<div class="ba-container">
+			<div class="ba-footer__row">
+			<div class="ba-copiright">
+			© 2015 Company. All right reserved.
+		</div>
+		<div class="ba-footer_logo">
+			<a href="#">
+				<img src="img/logo-small.png" alt="Cahee">
+			</a>
+		</div>
+		<div class="ba-developer">
+			Made with <a class="ba-developer__link" href="#">love</a> by Auskteez
+		</div>
+		</div>
+		</div>
 
 	</footer>
 	<!-- /.ba-footer -->
